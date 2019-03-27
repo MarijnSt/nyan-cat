@@ -5,7 +5,7 @@ div { height: 100vh; display: flex; justify-content: center; align-items: center
 
 .nyan-start { top: 0; left: 0; }
 
-.nyan-end { top: 100vh; left: 100vw; transform: rotate(580deg); }
+.nyan-end { top: 100vh; transform: rotate(580deg); }
 
 .hidden { display: none; }
 
