@@ -1,0 +1,10 @@
+div { height: 100vh; display: flex; justify-content: center; align-items: center; }
+
+/* BASIC ANIMATION */
+.cat { width: 100px; position: absolute; display: block; transition: 3s; }
+
+.nyan-start { top: 0; left: 0; }
+
+.nyan-end { top: 100vh; left: 100vw; transform: rotate(580deg); }
+
+/*# sourceMappingURL=style.css.map */
