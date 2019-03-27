@@ -29,3 +29,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/transform
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 https://www.w3schools.com/js/js_timing.asp
 
+
+Check out next time
+
+	*	Nodelist: selecting and editing properties of different elements
+	*	Nesting functions?
+	*	How can you make all the functions ready for an foreach loop through the nodelist
+
