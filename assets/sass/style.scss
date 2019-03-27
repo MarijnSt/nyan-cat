@@ -4,6 +4,7 @@ div {
 	justify-content: center;
 	align-items: center;
 }
+
 /* BASIC ANIMATION */
 
 .cat {
@@ -22,4 +23,8 @@ div {
 	top: 100vh;
 	left: 100vw;
 	transform: rotate(580deg);
+}
+
+.hidden {
+	display: none;
 }

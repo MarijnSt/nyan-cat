@@ -7,4 +7,6 @@ div { height: 100vh; display: flex; justify-content: center; align-items: center
 
 .nyan-end { top: 100vh; left: 100vw; transform: rotate(580deg); }
 
+.hidden { display: none; }
+
 /*# sourceMappingURL=style.css.map */
