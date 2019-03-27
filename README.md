@@ -9,8 +9,11 @@ Process
 
 Next step
 
-	*	Make a loop for one cat that keeps repeating for 10 seconds
-	*	Add more cats (generate in js? make a small group in html who will fall at different times?...)
+	*	Spawn multiple cats
+	*	Give each of them:
+		*	classes for start and end position
+		*	function that gives them all a unique left and right at different class
+	*	Loop that shit
 
 Properties to randomize
 
