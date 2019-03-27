@@ -9,8 +9,8 @@ Process
 
 Next step
 
-	*	Second click resets everything
-	*	Randomize one cat
+	*	Make a loop for one cat that keeps repeating for 10 seconds
+	*	Add more cats (generate in js? make a small group in html who will fall at different times?...)
 
 Properties to randomize
 

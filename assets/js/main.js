@@ -10,6 +10,10 @@ function randomPositieTop(i){
 }
 
 knopke.addEventListener("click", function(){
+	katvallen();
+});
+
+function katvallen(){
 	kat.classList.add("nyan-start");
 	randomPositieTop(kat);
 	kat.classList.toggle("hidden");
@@ -19,5 +23,8 @@ knopke.addEventListener("click", function(){
 		var posBottom = (posX + 20) + "vw";
 		kat.style.left = posBottom;
 	}, 1);
-});
+}
 
+function generateCats(){
+	
+}
