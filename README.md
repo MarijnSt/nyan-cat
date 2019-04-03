@@ -1,8 +1,11 @@
 ## NYAN CAT
 
-I'm still looking for a way to make the different animations overlap but this will do for now:
+You can find my nyan-site here:
 https://marijnst.github.io/nyan-cat/
 
+To-do:
+
+* Randomize speed, angle, number of cats
 
 
 #### Resources

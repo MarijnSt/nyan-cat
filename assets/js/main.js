@@ -30,11 +30,15 @@ function showCats() {
 	i++;
 	if(i < cats.length){
 		setTimeout(showCats, 1100);
-	}
+	};
 };
 
 knopke.addEventListener("click", function(){
 	body.classList.add("nyan-back");
 	song.play();
 	showCats();
+	setTimeout(function(){
+		song.pause();
+		body.classList.remove("nyan-back");
+	}, 10000);
 });
