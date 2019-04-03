@@ -1,6 +1,6 @@
 ## NYAN CAT
 
-Process
+####Process
 
 * Create one cat with animation
  	* Add start and endposition in a class
@@ -8,7 +8,7 @@ Process
 * Randomize one cat (random start position and an end position that's a bit to the right of the start
 
 
-Next step
+####Next step
 
 * Spawn multiple cats
 * Give each of them:
@@ -17,7 +17,7 @@ Next step
 * Loop that shit
 
 
-Properties to randomize
+####Properties to randomize
 
 * left (start and end)
 * transform rotate (end)?
@@ -25,7 +25,8 @@ Properties to randomize
 
 
 
-Resources
+####Resources
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform

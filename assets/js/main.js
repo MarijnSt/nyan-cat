@@ -2,7 +2,14 @@ var knopke = document.querySelector("button");
 var kat = document.querySelector("#kat");
 
 knopke.addEventListener("click", function(){
-	katvallen();
+	var timeLeft = 5;
+    var runTimer = setInterval(function(){
+    timeLeft--;
+    //Drop cats
+    katvallen();
+    if(timeLeft <= 0)
+        clearInterval(runTimer);
+    },1000);	
 });
 
 function katvallen(){
@@ -17,8 +24,4 @@ function katvallen(){
 		var posBottom = (posX + 20) + "vw";
 		kat.style.left = posBottom;
 	}, 1);
-}
-
-function generateCats(){
-	
 }
