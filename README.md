@@ -7,6 +7,7 @@ Process
 	* Transition property to move from one state to the other
 * Randomize one cat (random start position and an end position that's a bit to the right of the start
 
+
 Next step
 
 * Spawn multiple cats
@@ -15,18 +16,22 @@ Next step
 	* function that gives them all a unique left and right at different class
 * Loop that shit
 
+
 Properties to randomize
 
 * left (start and end)
 * transform rotate (end)?
-* transition (element)
+* transition (element)?
 
 
 
 Resources
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+
 https://www.w3schools.com/js/js_timing.asp
 
 
