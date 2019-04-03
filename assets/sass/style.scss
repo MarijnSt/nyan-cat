@@ -6,7 +6,7 @@ div {
 }
 
 .cat {
-	width: 100px;
+	width: 200px;
 	position: absolute;
 	display: block;
 	transition: 1s;
@@ -18,9 +18,14 @@ div {
 
 .nyan-end {
 	top: 100vh;
-	transform: rotate(580deg);
+	transform: rotate(360deg);
 }
 
 .hidden {
 	display: none;
+}
+
+.nyan-back {
+	background-image: url('../img/achtergrond.png');
+	background-size: cover;
 }

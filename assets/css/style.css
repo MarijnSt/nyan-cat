@@ -1,11 +1,13 @@
 div { height: 100vh; display: flex; justify-content: center; align-items: center; }
 
-.cat { width: 100px; position: absolute; display: block; transition: 1s; }
+.cat { width: 200px; position: absolute; display: block; transition: 1s; }
 
 .nyan-start { top: 0; }
 
-.nyan-end { top: 100vh; transform: rotate(580deg); }
+.nyan-end { top: 100vh; transform: rotate(360deg); }
 
 .hidden { display: none; }
+
+.nyan-back { background-image: url("../img/achtergrond.png"); background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */

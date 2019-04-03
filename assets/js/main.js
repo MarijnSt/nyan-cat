@@ -1,5 +1,7 @@
 var knopke = document.querySelector("button");
 var cats = document.querySelectorAll(".cat");
+var body = document.querySelector("body");
+var song = document.querySelector("#song");
 
 /* functie om een kat te laten vallen*/
 function katvallen(i){
@@ -14,6 +16,10 @@ function katvallen(i){
 		i.style.left = posBottom;
 		i.classList.add("nyan-end");
 	}, 1);
+	setTimeout(function(){
+		i.classList.remove("nyan-end");
+		i.classList.toggle("hidden");
+	}, 1000);
 }
 
 /* functie om door array van katten te gaan en ze te laten zien*/
@@ -28,5 +34,7 @@ function showCats() {
 };
 
 knopke.addEventListener("click", function(){
+	body.classList.add("nyan-back");
+	song.play();
 	showCats();
 });
