@@ -1,18 +1,11 @@
 ## NYAN CAT
 
-####Process
-
-* Create array with all cats
-* Go through array and let them drop
-
-#### What's next
-
-* Drop them one by one
-* Drop them with random speeds, rotations, ...
+I'm still looking for a way to make the different animations overlap but this will do for now:
+https://marijnst.github.io/nyan-cat/
 
 
 
-####Resources
+#### Resources
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 
