@@ -1,7 +1,7 @@
 div { height: 100vh; display: flex; justify-content: center; align-items: center; }
 
 /* BASIC ANIMATION */
-.cat { width: 100px; position: absolute; display: block; transition: 1.8s; }
+.cat { width: 100px; position: absolute; display: block; transition: 1.7s; }
 
 .nyan-start { top: 0; }
 

@@ -1,27 +1,38 @@
 var knopke = document.querySelector("button");
-var kat = document.querySelector("#kat");
+var cats = document.querySelectorAll(".cat");
 
 knopke.addEventListener("click", function(){
-	var timeLeft = 5;
+	showCats();
+	/* TIMER
+
+	var timeLeft = 10;
     var runTimer = setInterval(function(){
     timeLeft--;
     //Drop cats
-    katvallen();
+    katvallen(kat);
     if(timeLeft <= 0)
         clearInterval(runTimer);
-    },1000);	
+    },1000);*/	
 });
 
-function katvallen(){
-	var posX = Math.floor(Math.random() * 100);
+/* functie om een kat te laten vallen*/
+function katvallen(i){
+	var posX = Math.floor(Math.random() * 80);
 	var start = posX + "vw";
-	kat.classList.add("nyan-start");
-	kat.style.left = start;
-	kat.classList.toggle("hidden");
+	i.classList.add("nyan-start");
+	i.style.left = start;
+	i.classList.toggle("hidden");
 	setTimeout(function(){
-		kat.classList.remove("nyan-start");
-		kat.classList.toggle("nyan-end");
+		i.classList.remove("nyan-start");
+		i.classList.add("nyan-end");
 		var posBottom = (posX + 20) + "vw";
-		kat.style.left = posBottom;
+		i.style.left = posBottom;
 	}, 1);
 }
+
+/* functie om door array van katten te gaan en ze te laten zien*/
+function showCats() {
+	for (var i = 0; i < cats.length; i++){
+		katvallen(cats[i]);
+	}
+};
